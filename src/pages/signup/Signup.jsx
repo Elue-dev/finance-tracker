@@ -21,7 +21,7 @@ export default function Signup() {
       setError(null)
       await signup(email, password)
       await updateName(displayName)
-      navigate('/login')
+      navigate('/')
       console.log(user)
       setLoading(false)
     } catch(err) {
