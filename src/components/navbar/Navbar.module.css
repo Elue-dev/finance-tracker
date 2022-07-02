@@ -23,3 +23,15 @@
   color: #333;
   text-decoration: none;
 }
+
+@media (max-width: 420px) {
+  .navbar {
+    padding: 20px 0;
+  }
+  .title {
+    font-size: 1.2em;
+  }
+  .navbar ul {
+    max-width: 360px;
+  }
+}

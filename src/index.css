@@ -36,12 +36,15 @@ ul {
 
 @media (max-width: 420px) {
   body {
-    font-size: 1rem;
+    font-size: .8rem;
   }
   h2 {
     font-size: 1.1rem;
   }
   p {
     font-size: 1rem;
+  }
+  .btn {
+    padding: 4px 8px;
   }
 }
